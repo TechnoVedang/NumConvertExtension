@@ -5,8 +5,7 @@ import android.util.Log;
 import com.google.appinventor.components.annotations.*;
 import com.google.appinventor.components.runtime.*;
 import com.google.appinventor.components.common.ComponentCategory;
-import java.lang.*;
-import java.util.Scanner;
+
 
 @DesignerComponent(version = 1,  description = "Made By Techno Vedang AKA developer vedang",
         category = ComponentCategory.EXTENSION,
