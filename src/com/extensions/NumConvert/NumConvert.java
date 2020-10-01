@@ -56,13 +56,15 @@ public class NumConvert extends AndroidNonvisibleComponent {
                 cc = a.charAt(2);
                 result = Character.toString(aa) + Character.toString(bb) + "m";
                 return result;
-            }else if (a.length() > 9){
+            }else if (a.length() == 9){
                 aa = a.charAt(0);
                 bb = a.charAt(1);
                 cc = a.charAt(2);
                 result = Character.toString(aa) + Character.toString(bb) + Character.toString(cc) + "m";
                return result;
-            }else{
+            }else if (a.length() > 9){
+                return "Given Value Is Too Big To Convert";
+            }else {
                 return String.valueOf(value);
             }
         }catch (Exception e){
